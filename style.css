@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  main{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .name h1{
+    width:50%;
+    margin:auto;
+  }
+  .name{
+    text-align: center;
+    margin-top: 25%;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: 0rem 2rem 2rem 2rem;
+  }
+  li {
+      display:inline;
+      margin: 2rem;
+  }
+  a {
+    text-decoration: none;
+  }
+  .inicio{
+      background: url("foto.jpg");
+      background-size: cover;
+      background-repeat: no-repeat; 
+      height: 30rem;
+  }
